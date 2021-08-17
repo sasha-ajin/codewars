@@ -44,8 +44,6 @@ You do not need to worry about validation - you will only receive valid mathemat
 """
 
 import re
-import numpy
-
 
 def calc_expression(string):
     operands_list = re.findall(r'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', string)
