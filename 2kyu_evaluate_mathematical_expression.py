@@ -98,6 +98,3 @@ def calc(string):
     if float(calc_expression(string)) == int(float(calc_expression(string))) :
         return int(float(calc_expression(string)))
     return calc_expression(string)
-
-
-
