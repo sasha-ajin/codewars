@@ -41,7 +41,6 @@ And the following are invalid expressions
 Validation
 You do not need to worry about validation - you will only receive valid mathematical expressions following the above rules.
 
-
 """
 
 import re
