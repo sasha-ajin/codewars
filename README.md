@@ -1,6 +1,6 @@
 # codewars
 
-Tasks from codewarsfrom 6. to 2 kyu
+Codewars tasks from 6 to 2 kyu
 
 ## Task 6 kyu 
 
