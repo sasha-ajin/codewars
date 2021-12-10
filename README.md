@@ -10,14 +10,14 @@ form of a phone number.
 ## Task 5 kyu
 
 ISBN-10 identifiers are ten digits long. The first nine characters are digits 0-9. The last digit can be 0-9 or X, to indicate a value of 10.
-An ISBN-10 number is valid if the sum of the digits multiplied by their position modulo 11 equals zero.\
+An ISBN-10 number is valid if the sum of the digits multiplied by their position modulo 11 equals zero.
 
 For example:\
 ISBN     : 1 1 1 2 2 2 3 3 3  9 \
-position : 1 2 3 4 5 6 7 8 9 10 \
+position : 1 2 3 4 5 6 7 8 9 10 
 
 This is a valid ISBN, because: \
-(1 * 1 + 1 * 2 + 1 * 3 + 2 * 4 + 2 * 5 + 2 * 6 + 3 * 7 + 3 * 8 + 3 * 9 + 9 * 10) % 11 = 0 \
+(1 * 1 + 1 * 2 + 1 * 3 + 2 * 4 + 2 * 5 + 2 * 6 + 3 * 7 + 3 * 8 + 3 * 9 + 9 * 10) % 11 = 0 
 
 ## Task 4 kyu 
 
@@ -41,7 +41,7 @@ more precisely sorted by codepoint); the different groups will be separated by '
 Hopefully other examples can make this clearer. \
 s1 = "my&friend&Paul has heavy hats! &" \
 s2 = "my friend John has many many friends &" \
-mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss" \
+mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss" 
 
 ## Task 3 kyu
 
@@ -49,13 +49,13 @@ Your task, is to create a NxN spiral with a given size. \
 Return value should contain array of arrays, of 0 and 1, for example for given size 5 result should be: \
 [[1,1,1,1,1],[0,0,0,0,1],[1,1,1,0,1],[1,0,0,0,1],[1,1,1,1,1]] \
 Because of the edge-cases for tiny spirals, the size will be at least 5. \
-General rule-of-a-thumb is, that the snake made with '1' cannot touch to itself. \
+General rule-of-a-thumb is, that the snake made with '1' cannot touch to itself. 
 
 
 ## Task 2kyu
 
 ### Instructions 
-Given a mathematical expression as a string you must return the result as a number. \
+Given a mathematical expression as a string you must return the result as a number. 
 ### Numbers 
 Number may be both whole numbers and/or decimal numbers. The same goes for the returned result.
 ### Operators
@@ -79,12 +79,12 @@ An addition to this rule is that the minus sign (-) used for negating numbers an
 1--1   // 2 \
 6 + -(4)   // 2 \
 6 + -( -4) // 10 \
-And the following are invalid expressions \
+And the following are invalid expressions 
 
 1 - - 1    // Invalid \
 1- - 1     // Invalid \
 6 + - (4)  // Invalid \
-6 + -(- 4) // Invalid \
+6 + -(- 4) // Invalid 
 ### Validation 
 You do not need to worry about validation - you will only receive valid mathematical expressions following the above rules.
 
