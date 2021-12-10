@@ -44,23 +44,6 @@ mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
 ## Task 3 kyu
 
 Your task, is to create a NxN spiral with a given size. \
-For example, spiral with size 5 should look like this: \
-00000 \
-....0 \
-000.0 \
-0...0 \
-00000 \
-and with the size 10: \
-0000000000 \
-.........0 \
-00000000.0 \
-0......0.0 \
-0.0000.0.0 \
-0.0..0.0.0 \
-0.0....0.0 \
-0.000000.0 \
-0........0 \
-0000000000 \
 Return value should contain array of arrays, of 0 and 1, for example for given size 5 result should be: \
 [[1,1,1,1,1],[0,0,0,0,1],[1,1,1,0,1],[1,0,0,0,1],[1,1,1,1,1]] \
 Because of the edge-cases for tiny spirals, the size will be at least 5. \
