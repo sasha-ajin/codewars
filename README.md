@@ -66,7 +66,7 @@ Addition + \
 Subtraction - \
 Operators are always evaluated from left-to-right, and * and / must be evaluated before + and -. \
 Parentheses \
-You need to support multiple levels of nested parentheses, ex. (2 / (2 + 3.33) * 4) - -6 \
+You need to support multiple levels of nested parentheses, ex. (2 / (2 + 3.33) * 4) - -6 
 ### Whitespace 
 There may or may not be whitespace between numbers and operators. \
 An addition to this rule is that the minus sign (-) used for negating numbers and parentheses will never be separated by whitespace. I.e all of the following are valid expressions. \
