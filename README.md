@@ -2,12 +2,12 @@
 
 Tasks from codewarsfrom 6. to 2 kyu
 
-##Task 6 kyu 
+## Task 6 kyu 
 
 Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the
 form of a phone number.
 
-##Task 5 kyu
+## Task 5 kyu
 
 ISBN-10 identifiers are ten digits long. The first nine characters are digits 0-9. The last digit can be 0-9 or X, to indicate a value of 10.
 An ISBN-10 number is valid if the sum of the digits multiplied by their position modulo 11 equals zero.
@@ -17,7 +17,7 @@ position : 1 2 3 4 5 6 7 8 9 10
 This is a valid ISBN, because:
 (1*1 + 1*2 + 1*3 + 2*4 + 2*5 + 2*6 + 3*7 + 3*8 + 3*9 + 9*10) % 11 = 0
 
-##Task 4 kyu 
+## Task 4 kyu 
 
 Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the
 lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
@@ -41,7 +41,7 @@ s1 = "my&friend&Paul has heavy hats! &"
 s2 = "my friend John has many many friends &"
 mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
 
-##Task 3 kyu
+## Task 3 kyu
 
 Your task, is to create a NxN spiral with a given size.
 For example, spiral with size 5 should look like this:
@@ -67,7 +67,7 @@ Because of the edge-cases for tiny spirals, the size will be at least 5.
 General rule-of-a-thumb is, that the snake made with '1' cannot touch to itself.
 
 
-##Task 2kyu
+## Task 2kyu
 
 Instructions
 Given a mathematical expression as a string you must return the result as a number.
