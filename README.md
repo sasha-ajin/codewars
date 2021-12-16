@@ -2,6 +2,10 @@
 
 Codewars tasks from 6 to 2 kyu
 
+## Task 7 kyu 
+
+Determine the area of the largest square that can fit inside a circle with radius r.
+
 ## Task 6 kyu 
 
 Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the
